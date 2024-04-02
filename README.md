@@ -7,6 +7,9 @@
 ```bash
 conda create -n yolov8GUI python=3.8
 ```
+```bash
+conda activate yolov8GUI
+```
 2. New a folder and open terminal in the folder
 3. Make sure you have installed git
 ```bash
@@ -16,13 +19,16 @@ if you haven't installed git, you can download it from [here](https://git-scm.co
 
 5. Clone the repository from github
 ```bash
-git clone https://github.com/sxsx-G/Interface-for-yolov8-model-.git
+git clone https://github.com/sxsx-G/GUI-for-yolov8-model.git
 ```
 6. Install the required packages
 ```bash
 pip3 install ultralytics
 ```
 7. Start the program
+```bash
+cd GUI-for-yolov8-model
+```
 ```bash
 python3 plot.py
 ```
@@ -31,4 +37,5 @@ python3 plot.py
 2. When you first run the program, it will gnerate a cache file named "cache.txt" in the same folder
 3. Device: cuda(Windows only), cpu(all platform), mps(macOS only)
 4. The outputs of the program will be saved as a txt file in the same folder
+5. If notice any problems, please report on 'Issues'
 
