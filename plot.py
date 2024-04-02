@@ -27,7 +27,6 @@ class App:
         self.cap = cv2.VideoCapture("video_file_path")
         self.use_fps_algorithm = False
 
-        # 创建按钮框架，并放置在窗口顶部
         self.button_frame = tk.Frame(root)
         self.button_frame.pack(side="top", fill="x")
 
