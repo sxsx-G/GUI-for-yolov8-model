@@ -1,6 +1,6 @@
 ## A python program for visualizing YOLOv8 detecting
 
-<img width="1192" alt="截屏2024-03-29 下午3 55 30" src="https://github.com/sxsx-G/Yolov8GUI/assets/107988674/ddebe663-f06a-4f07-ae58-d54249b1a9b1">
+![Uploading 截屏2024-04-02 下午4.40.33.png…]()
 
 ### How to install
 1. For easy to use, you can use the anaconda to create a new environment
