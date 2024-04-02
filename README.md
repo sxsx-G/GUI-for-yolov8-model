@@ -13,6 +13,7 @@ conda create -n yolov8GUI python=3.8
 git --version
 ```
 if you haven't installed git, you can download it from [here](https://git-scm.com/downloads)
+
 5. Clone the repository from github
 ```bash
 git clone https://github.com/sxsx-G/Interface-for-yolov8-model-.git
