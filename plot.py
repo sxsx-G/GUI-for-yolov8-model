@@ -31,30 +31,30 @@ class App:
         self.button_frame = tk.Frame(root)
         self.button_frame.pack(side="top", fill="x")
 
-        self.save_button = tk.Button(self.button_frame, text="选择结果保存路径", command=self.select_save_dir)
+        self.save_button = tk.Button(self.button_frame, text="Save path", command=self.select_save_dir)
         self.save_button.pack(side="left")
 
-        self.model_button = tk.Button(self.button_frame, text="选择模型", command=self.select_model, state="disabled")
+        self.model_button = tk.Button(self.button_frame, text="Models", command=self.select_model, state="disabled")
         self.model_button.pack(side="left")
 
-        self.stream_button = tk.Button(self.button_frame, text="选择视频源", command=self.select_source,
+        self.stream_button = tk.Button(self.button_frame, text="Source", command=self.select_source,
                                        state="disabled")
         self.stream_button.pack(side="left")
 
-        self.start_button = tk.Button(self.button_frame, text="开始检测", command=self.start, state="disabled")
+        self.start_button = tk.Button(self.button_frame, text="Start", command=self.start, state="disabled")
         self.start_button.pack(side="left")
 
-        self.quit_button = tk.Button(self.button_frame, text="退出程序", command=quit, state="normal")
+        self.quit_button = tk.Button(self.button_frame, text="Exit", command=quit, state="normal")
         self.quit_button.pack(side="left")
 
         # 创建一个Combobox控件来选择设备
         self.device_combobox = ttk.Combobox(self.button_frame, values=['cpu', 'cuda', 'mps'], state='disabled')
-        self.device_combobox.set("选择设备")
+        self.device_combobox.set("Devices")
         self.device_combobox.pack(side='left')
         self.device_combobox.bind('<<ComboboxSelected>>', self.select_device)
 
         self.info_text = tk.Text(self.button_frame, height=2,state='normal')
-        self.info_text.insert(tk.END, "Steps:选择结果保存路径->选择模型->选择视频源->开始检测")
+        self.info_text.insert(tk.END, "Please select the save path, model and video source\n")
         self.info_text.pack(side='left')
 
         # 使用PanedWindow来改善布局
