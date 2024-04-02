@@ -1,6 +1,6 @@
 ## A python program for visualizing YOLOv8 detecting
 
-![Uploading 截屏2024-04-02 下午4.40.33.png…]()
+<img width="1192" alt="截屏2024-04-02 下午4 40 33" src="https://github.com/sxsx-G/Interface-for-yolov8-model-/assets/107988674/ca2e773d-1cf7-4927-9b6e-ed48c6838273">
 
 ### How to install
 1. For easy to use, you can use the anaconda to create a new environment
@@ -31,3 +31,4 @@ python3 plot.py
 2. When you first run the program, it will gnerate a cache file named "cache.txt" in the same folder
 3. Device: cuda(Windows only), cpu(all platform), mps(macOS only)
 4. The outputs of the program will be saved as a txt file in the same folder
+
