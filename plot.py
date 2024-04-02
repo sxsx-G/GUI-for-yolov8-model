@@ -165,8 +165,8 @@ class App:
         # 获取视频的宽度和高度
         # width = self.cap.get(cv2.CAP_PROP_FRAME_WIDTH)
         # height = self.cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
-        width=800
-        height=600
+        width = 800
+        height = 700
         # 设置图像Frame的大小
         self.image_frame.config(width=int(width), height=int(height))
         self.stream_button.config(state="disabled")
