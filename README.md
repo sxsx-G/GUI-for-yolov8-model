@@ -23,6 +23,9 @@ git clone https://github.com/sxsx-G/GUI-for-yolov8-model.git
 ```
 6. Install the required packages
 ```bash
+pip install opencv-python
+```
+```bash
 pip3 install ultralytics
 ```
 7. Start the program
